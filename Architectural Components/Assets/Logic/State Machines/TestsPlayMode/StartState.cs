@@ -2,23 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Guanomancer.StateMachines
+namespace Guanomancer.StateMachines.TestsPlayMode
 {
-    public class EndState : StateBase<StateMachine>
+    public class StartState : StateBase<StateMachine>
     {
         protected override void OnEnter()
         {
-            Debug.Log("Enter End");
+            Debug.Log("Enter Start");
         }
 
         protected override void OnExit()
         {
-            Debug.Log("Exit End");
+            Debug.Log("Exit Start");
         }
 
         protected override void OnUpdate()
         {
-            Debug.Log("Update End");
+            Transition<EndState>();
         }
     }
 }
