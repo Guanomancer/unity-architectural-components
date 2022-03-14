@@ -1,10 +1,10 @@
 {
-    "name": "TestsPlayMode",
-    "rootNamespace": "Guanomancer.EventRouting.TestsPlayMode",
+    "name": "Guanomancer.StateMachines.TestsPlayMode",
+    "rootNamespace": "Guanomancer.StateMachines.TestsPlayMode",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "Guanomancer.EventRouting"
+        "Guanomancer.StateMachine"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

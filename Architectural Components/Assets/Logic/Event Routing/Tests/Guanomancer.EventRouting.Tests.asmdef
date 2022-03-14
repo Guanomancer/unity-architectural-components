@@ -1,5 +1,5 @@
 {
-    "name": "Tests",
+    "name": "Guanomancer.EventRouting.Tests",
     "rootNamespace": "Guanomancer.EventRouting.Tests",
     "references": [
         "UnityEngine.TestRunner",
