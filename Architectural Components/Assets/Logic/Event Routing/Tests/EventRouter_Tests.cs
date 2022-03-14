@@ -145,6 +145,4 @@ namespace Guanomancer.EventRouting.Tests
 
     public struct MyEventA : IEventContext { }
     public struct MyEventB : IEventContext { }
-
-    public struct MyEventC : IEventContext { }
 }
