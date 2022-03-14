@@ -14,9 +14,22 @@ namespace Guanomancer.StateMachines.TestsPlayMode
         }
 
         [UnityTest]
-        public IEnumerator EventController_RegistersAndFiresEvents()
+        public IEnumerator StateMachine_ProgressThroughTransitions()
         {
+            var gameObject = new GameObject();
+            var fsm = gameObject.AddComponent<StateMachine>();
+            var start = gameObject.AddComponent<StartState>();
+            var end = gameObject.AddComponent<EndState>();
+
+            Assert.IsNull(fsm.StateName);
+
             yield return null;
+
+            Assert.IsTrue(fsm.IsState<EndState>());
+
+            yield return null;
+
+            Assert.IsTrue(fsm.IsState<EndState>());
         }
     }
 }

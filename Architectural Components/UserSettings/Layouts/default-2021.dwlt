@@ -14,17 +14,69 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 2249
-    y: 302.5
-    width: 1206
-    height: 715
+    x: 0
+    y: 43
+    width: 1920
+    height: 989
   m_ShowMode: 4
-  m_Title: 
-  m_RootView: {fileID: 6}
+  m_Title: Project
+  m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: TestRunnerWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 548
+    y: 0
+    width: 918
+    height: 616
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 20}
+  - {fileID: 14}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 323
+    width: 1466
+    height: 616
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 159
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,19 +89,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  - {fileID: 11}
+  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1206
-    height: 665
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+    width: 1920
+    height: 939
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 119
---- !u!114 &3
+  controlID: 89
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,18 +116,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 921
+    x: 1466
     y: 0
-    width: 285
-    height: 665
+    width: 454
+    height: 939
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 13}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &4
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,16 +144,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 228
-    height: 394
+    width: 363
+    height: 323
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &5
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,18 +169,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 394
-    width: 921
-    height: 271
+    y: 0
+    width: 548
+    height: 616
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 12}
-  - {fileID: 17}
+  - {fileID: 15}
   m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &6
+  m_LastSelected: 0
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,18 +192,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
+  - {fileID: 9}
+  - {fileID: 4}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1206
-    height: 715
+    width: 1920
+    height: 989
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &7
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,14 +224,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1206
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LoadedToolbars: []
-  m_MainToolbar: {fileID: 18}
-  m_LastLoadedLayoutName: Default
---- !u!114 &8
+  m_LastLoadedLayoutName: 
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -192,61 +245,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 695
-    width: 1206
+    y: 969
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 921
-    height: 665
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 92
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 921
-    height: 394
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
-  vertical: 0
-  controlID: 93
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -256,25 +259,715 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 12}
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1466
+    height: 939
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 158
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1466
+    height: 323
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 41
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 228
+    x: 363
     y: 0
-    width: 693
-    height: 394
+    width: 1103
+    height: 323
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 16}
+  - {fileID: 18}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &12
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 548
+    y: 396
+    width: 916
+    height: 595
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_Spl:
+    ID: 10303
+    splitterInitialOffset: 461
+    currentActiveSplitter: -1
+    realSizes:
+    - 392
+    - 133
+    relativeSizes:
+    - 0.74666667
+    - 0.25333333
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 525
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 14}
+    m_NewResultList:
+    - id: 1020
+      uniqueId: '[Architectural Components][suite]'
+      name: Architectural Components
+      fullName: Architectural Components
+      resultStatus: 1
+      duration: 0.3916165
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1004
+      uniqueId: '[Guanomancer.EventRouting.TestsPlayMode.dll][suite]'
+      name: Guanomancer.EventRouting.TestsPlayMode.dll
+      fullName: C:/Users/trowi/source/repos/unity-architectural-components/Architectural
+        Components/Library/ScriptAssemblies/Guanomancer.EventRouting.TestsPlayMode.dll
+      resultStatus: 1
+      duration: 0.2787642
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Architectural Components][suite]'
+    - id: 1005
+      uniqueId: Guanomancer.EventRouting.TestsPlayMode.dll/[Guanomancer][suite]
+      name: Guanomancer
+      fullName: Guanomancer
+      resultStatus: 1
+      duration: 0.2687686
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1004
+      parentUniqueId: '[Guanomancer.EventRouting.TestsPlayMode.dll][suite]'
+    - id: 1006
+      uniqueId: Guanomancer.EventRouting.TestsPlayMode.dll/Guanomancer/[EventRouting][suite]
+      name: EventRouting
+      fullName: Guanomancer.EventRouting
+      resultStatus: 1
+      duration: 0.2660652
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: Guanomancer.EventRouting.TestsPlayMode.dll/[Guanomancer][suite]
+    - id: 1007
+      uniqueId: Guanomancer.EventRouting.TestsPlayMode.dll/Guanomancer/EventRouting/[Guanomancer.EventRouting.TestsPlayMode][Guanomancer.EventRouting.TestsPlayMode][suite]
+      name: TestsPlayMode
+      fullName: Guanomancer.EventRouting.TestsPlayMode
+      resultStatus: 1
+      duration: 0.2634401
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1006
+      parentUniqueId: Guanomancer.EventRouting.TestsPlayMode.dll/Guanomancer/[EventRouting][suite]
+    - id: 1001
+      uniqueId: Guanomancer.EventRouting.TestsPlayMode.dll/Guanomancer/EventRouting/TestsPlayMode/[Guanomancer.EventRouting.TestsPlayMode][Guanomancer.EventRouting.TestsPlayMode.EventController_Tests][suite]
+      name: EventController_Tests
+      fullName: Guanomancer.EventRouting.TestsPlayMode.EventController_Tests
+      resultStatus: 1
+      duration: 0.2596093
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1007
+      parentUniqueId: Guanomancer.EventRouting.TestsPlayMode.dll/Guanomancer/EventRouting/[Guanomancer.EventRouting.TestsPlayMode][Guanomancer.EventRouting.TestsPlayMode][suite]
+    - id: 1003
+      uniqueId: Guanomancer.EventRouting.TestsPlayMode.dll/Guanomancer/EventRouting/TestsPlayMode/EventController_Tests/[Guanomancer.EventRouting.TestsPlayMode][Guanomancer.EventRouting.TestsPlayMode.EventController_Tests.EventController_RegistersAndFiresCorrectEvents]
+      name: EventController_RegistersAndFiresCorrectEvents
+      fullName: Guanomancer.EventRouting.TestsPlayMode.EventController_Tests.EventController_RegistersAndFiresCorrectEvents
+      resultStatus: 1
+      duration: 0.2017289
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Guanomancer.EventRouting.TestsPlayMode.dll/Guanomancer/EventRouting/TestsPlayMode/[Guanomancer.EventRouting.TestsPlayMode][Guanomancer.EventRouting.TestsPlayMode.EventController_Tests][suite]
+    - id: 1002
+      uniqueId: Guanomancer.EventRouting.TestsPlayMode.dll/Guanomancer/EventRouting/TestsPlayMode/EventController_Tests/[Guanomancer.EventRouting.TestsPlayMode][Guanomancer.EventRouting.TestsPlayMode.EventController_Tests.EventController_RegistersAndFiresEvents]
+      name: EventController_RegistersAndFiresEvents
+      fullName: Guanomancer.EventRouting.TestsPlayMode.EventController_Tests.EventController_RegistersAndFiresEvents
+      resultStatus: 1
+      duration: 0.0219578
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Guanomancer.EventRouting.TestsPlayMode.dll/Guanomancer/EventRouting/TestsPlayMode/[Guanomancer.EventRouting.TestsPlayMode][Guanomancer.EventRouting.TestsPlayMode.EventController_Tests][suite]
+    - id: 1010
+      uniqueId: '[Guanomancer.StateMachines.TestsPlayMode.dll][suite]'
+      name: Guanomancer.StateMachines.TestsPlayMode.dll
+      fullName: C:/Users/trowi/source/repos/unity-architectural-components/Architectural
+        Components/Library/ScriptAssemblies/Guanomancer.StateMachines.TestsPlayMode.dll
+      resultStatus: 1
+      duration: 0.0479227
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Architectural Components][suite]'
+    - id: 1011
+      uniqueId: Guanomancer.StateMachines.TestsPlayMode.dll/[Guanomancer][suite]
+      name: Guanomancer
+      fullName: Guanomancer
+      resultStatus: 1
+      duration: 0.045485
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1010
+      parentUniqueId: '[Guanomancer.StateMachines.TestsPlayMode.dll][suite]'
+    - id: 1012
+      uniqueId: Guanomancer.StateMachines.TestsPlayMode.dll/Guanomancer/[StateMachines][suite]
+      name: StateMachines
+      fullName: Guanomancer.StateMachines
+      resultStatus: 1
+      duration: 0.0416345
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1011
+      parentUniqueId: Guanomancer.StateMachines.TestsPlayMode.dll/[Guanomancer][suite]
+    - id: 1013
+      uniqueId: Guanomancer.StateMachines.TestsPlayMode.dll/Guanomancer/StateMachines/[Guanomancer.StateMachines.TestsPlayMode][Guanomancer.StateMachines.TestsPlayMode][suite]
+      name: TestsPlayMode
+      fullName: Guanomancer.StateMachines.TestsPlayMode
+      resultStatus: 1
+      duration: 0.037457
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: Guanomancer.StateMachines.TestsPlayMode.dll/Guanomancer/[StateMachines][suite]
+    - id: 1008
+      uniqueId: Guanomancer.StateMachines.TestsPlayMode.dll/Guanomancer/StateMachines/TestsPlayMode/[Guanomancer.StateMachines.TestsPlayMode][Guanomancer.StateMachines.TestsPlayMode.StateMachine_Tests][suite]
+      name: StateMachine_Tests
+      fullName: Guanomancer.StateMachines.TestsPlayMode.StateMachine_Tests
+      resultStatus: 1
+      duration: 0.0258451
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1013
+      parentUniqueId: Guanomancer.StateMachines.TestsPlayMode.dll/Guanomancer/StateMachines/[Guanomancer.StateMachines.TestsPlayMode][Guanomancer.StateMachines.TestsPlayMode][suite]
+    - id: 1009
+      uniqueId: Guanomancer.StateMachines.TestsPlayMode.dll/Guanomancer/StateMachines/TestsPlayMode/StateMachine_Tests/[Guanomancer.StateMachines.TestsPlayMode][Guanomancer.StateMachines.TestsPlayMode.StateMachine_Tests.StateMachine_ProgressThroughTransitions]
+      name: StateMachine_ProgressThroughTransitions
+      fullName: Guanomancer.StateMachines.TestsPlayMode.StateMachine_Tests.StateMachine_ProgressThroughTransitions
+      resultStatus: 1
+      duration: 0.016902
+      messages: 
+      output: 'Enter Start
+
+        Exit Start
+
+        Enter End
+
+        Update
+        End
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: Guanomancer.StateMachines.TestsPlayMode.dll/Guanomancer/StateMachines/TestsPlayMode/[Guanomancer.StateMachines.TestsPlayMode][Guanomancer.StateMachines.TestsPlayMode.StateMachine_Tests][suite]
+    m_ResultText: 'StateMachine_ProgressThroughTransitions (0,017s)
+
+      ---
+
+      Enter
+      Start
+
+      Exit Start
+
+      Enter End
+
+      Update End'
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 82560033
+      m_LastClickedID: 855660162
+      m_ExpandedIDs: 9ae29c91db24d7958b506b9fec01b4aba69626b8e9514cca57accdd9181ba1da7cdff5dca48310ecaf3e27febd0d2d2cf6223b3ce6a03f3c6255825caf3c8e7cffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 14}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[Architectural Components][suite]'
+      name: Architectural Components
+      fullName: Architectural Components
+      resultStatus: 1
+      duration: 0.257151
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1027
+      uniqueId: '[Guanomancer.EventRouting.Tests.dll][suite]'
+      name: Guanomancer.EventRouting.Tests.dll
+      fullName: C:/Users/trowi/source/repos/unity-architectural-components/Architectural
+        Components/Library/ScriptAssemblies/Guanomancer.EventRouting.Tests.dll
+      resultStatus: 1
+      duration: 0.2251873
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1015
+      parentUniqueId: '[Architectural Components][suite]'
+    - id: 1028
+      uniqueId: Guanomancer.EventRouting.Tests.dll/[Guanomancer][suite]
+      name: Guanomancer
+      fullName: Guanomancer
+      resultStatus: 1
+      duration: 0.224088
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1027
+      parentUniqueId: '[Guanomancer.EventRouting.Tests.dll][suite]'
+    - id: 1029
+      uniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/[EventRouting][suite]
+      name: EventRouting
+      fullName: Guanomancer.EventRouting
+      resultStatus: 1
+      duration: 0.2233947
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1028
+      parentUniqueId: Guanomancer.EventRouting.Tests.dll/[Guanomancer][suite]
+    - id: 1030
+      uniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests][suite]
+      name: Tests
+      fullName: Guanomancer.EventRouting.Tests
+      resultStatus: 1
+      duration: 0.2165625
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1029
+      parentUniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/[EventRouting][suite]
+    - id: 1016
+      uniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests][suite]
+      name: EventRouter_Tests
+      fullName: Guanomancer.EventRouting.Tests.EventRouter_Tests
+      resultStatus: 1
+      duration: 0.2111394
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1030
+      parentUniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests][suite]
+    - id: 1019
+      uniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/EventRouter_Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests.SubscribeByName_EnablesReceivingEvents]
+      name: SubscribeByName_EnablesReceivingEvents
+      fullName: Guanomancer.EventRouting.Tests.EventRouter_Tests.SubscribeByName_EnablesReceivingEvents
+      resultStatus: 1
+      duration: 0.1804329
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests][suite]
+    - id: 1022
+      uniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/EventRouter_Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests.SubscribeByName_ReceivesOnlySubscribedEventTypes]
+      name: SubscribeByName_ReceivesOnlySubscribedEventTypes
+      fullName: Guanomancer.EventRouting.Tests.EventRouter_Tests.SubscribeByName_ReceivesOnlySubscribedEventTypes
+      resultStatus: 1
+      duration: 0.0011806
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests][suite]
+    - id: 1017
+      uniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/EventRouter_Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests.SubscribeByT_EnablesReceivingEvents]
+      name: SubscribeByT_EnablesReceivingEvents
+      fullName: Guanomancer.EventRouting.Tests.EventRouter_Tests.SubscribeByT_EnablesReceivingEvents
+      resultStatus: 1
+      duration: 0.0003462
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests][suite]
+    - id: 1020
+      uniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/EventRouter_Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests.SubscribeByT_ReceivesOnlySubscribedEventTypes]
+      name: SubscribeByT_ReceivesOnlySubscribedEventTypes
+      fullName: Guanomancer.EventRouting.Tests.EventRouter_Tests.SubscribeByT_ReceivesOnlySubscribedEventTypes
+      resultStatus: 1
+      duration: 0.0002425
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests][suite]
+    - id: 1018
+      uniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/EventRouter_Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests.SubscribeByType_EnablesReceivingEvents]
+      name: SubscribeByType_EnablesReceivingEvents
+      fullName: Guanomancer.EventRouting.Tests.EventRouter_Tests.SubscribeByType_EnablesReceivingEvents
+      resultStatus: 1
+      duration: 0.0002237
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests][suite]
+    - id: 1021
+      uniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/EventRouter_Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests.SubscribeByType_ReceivesOnlySubscribedEventTypes]
+      name: SubscribeByType_ReceivesOnlySubscribedEventTypes
+      fullName: Guanomancer.EventRouting.Tests.EventRouter_Tests.SubscribeByType_ReceivesOnlySubscribedEventTypes
+      resultStatus: 1
+      duration: 0.0002285
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests][suite]
+    - id: 1026
+      uniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/EventRouter_Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests.UnsubscribeAll_StopsReceivingAllEventTypes]
+      name: UnsubscribeAll_StopsReceivingAllEventTypes
+      fullName: Guanomancer.EventRouting.Tests.EventRouter_Tests.UnsubscribeAll_StopsReceivingAllEventTypes
+      resultStatus: 1
+      duration: 0.0003774
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests][suite]
+    - id: 1025
+      uniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/EventRouter_Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests.UnsubscribeByName_StopsReceivingSpecificEventType]
+      name: UnsubscribeByName_StopsReceivingSpecificEventType
+      fullName: Guanomancer.EventRouting.Tests.EventRouter_Tests.UnsubscribeByName_StopsReceivingSpecificEventType
+      resultStatus: 1
+      duration: 0.0004245
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests][suite]
+    - id: 1023
+      uniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/EventRouter_Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests.UnsubscribeByT_StopsReceivingSpecificEventType]
+      name: UnsubscribeByT_StopsReceivingSpecificEventType
+      fullName: Guanomancer.EventRouting.Tests.EventRouter_Tests.UnsubscribeByT_StopsReceivingSpecificEventType
+      resultStatus: 1
+      duration: 0.0002828
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests][suite]
+    - id: 1024
+      uniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/EventRouter_Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests.UnsubscribeByType_StopsReceivingSpecificEventType]
+      name: UnsubscribeByType_StopsReceivingSpecificEventType
+      fullName: Guanomancer.EventRouting.Tests.EventRouter_Tests.UnsubscribeByType_StopsReceivingSpecificEventType
+      resultStatus: 1
+      duration: 0.0002356
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: Guanomancer.EventRouting.Tests.dll/Guanomancer/EventRouting/Tests/[Guanomancer.EventRouting.Tests][Guanomancer.EventRouting.Tests.EventRouter_Tests][suite]
+    m_ResultText: SubscribeByType_ReceivesOnlySubscribedEventTypes (0,000s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 647b8f3e
+      m_LastClickedID: 1049590628
+      m_ExpandedIDs: 8b506b9f6c23dbb317975ebb09324fc4d5d38be71190d8e7c544aaf5e557abf720d272f82af3cb44c9037f7cffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -294,11 +987,14 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 396
+    width: 547
+    height: 595
   m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -314,19 +1010,21 @@ MonoBehaviour:
     m_Folders:
     - Assets
     m_Globs: []
+    m_OriginalText: 
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 16
   m_LastFolders:
   - Assets
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: U:\layout
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: C:\Users\trowi\source\repos\unity-architectural-components\Architectural
+    Components
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f4350000
-    m_LastClickedID: 13812
-    m_ExpandedIDs: 00000000f435000000ca9a3b
+    m_SelectedIDs: 4c690000
+    m_LastClickedID: 26956
+    m_ExpandedIDs: 000000004c690000566900005c69000044740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -342,7 +1040,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 7}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -354,7 +1052,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4350000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -398,7 +1096,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -407,10 +1105,10 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &13
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -430,11 +1128,14 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3170
-    y: 332.5
-    width: 284
-    height: 644
+    x: 1466
+    y: 73
+    width: 453
+    height: 918
   m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
@@ -443,12 +1144,12 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
-  m_AssetGUID: 
-  m_InstanceID: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &14
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -468,17 +1169,20 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 332.5
-    width: 227
-    height: 373
+    x: 0
+    y: 73
+    width: 362
+    height: 302
   m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 42fbffff
+      m_ExpandedIDs: 7e85feffd085feff6e87fefffc89feff4e8afeffd88bfeff9a8dfeffec8dfeff8a8ffeff8a90feffdc90feff6692feff7293feffc493feff4e95feffd49afeffe8a3feff3aa4feffc6a5feff70affeffc6affeff52b0fefff6b3feff48b4feffd4b5fefffeb8feff50b9feffdcbafeff44bbfeff96bbfeff26bdfeffe0bffeff32c0feffbec1feff12c2feff64c2feffdcc3fefff0c4feff42c5feffbac6feffd2c7feff24c8feffb0c9feff1cd4feff6ed4feffd8d5feff36d9feff88d9feff06dbfeff52dbfeffa4dbfeff22ddfeff66ddfeffb8ddfeff22dffeff82dffeffd4dffeff3ee1feff50e2feffa2e2feff24e4feff80e4feffd2e4feff50e6feffbee8feff10e9feff7aeafeff9aebfeffecebfeff6aedfeff32effeff84effeff02f1feffdef4feff30f5feffbcf6feff2c25ffff7a25ffffea2affff704dffff7c51ffffc854ffff345affff4c75ffff567fffff5481ffff7c96ffff7698fffffe98ffffe89effffa8a1fffff4a2ffff22abffffc0e5ffff36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -494,7 +1198,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 6}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -502,7 +1206,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &15
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -522,12 +1226,201 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2477
-    y: 332.5
-    width: 691
-    height: 373
+    x: 363
+    y: 73
+    width: 1101
+    height: 302
   m_ViewDataDictionary: {fileID: 0}
-  m_ShowContextualTools: 0
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -101, y: -26}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 3
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 7
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 8
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 9
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 10
+      layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
@@ -550,13 +1443,14 @@ MonoBehaviour:
   m_DoValidateTrueMetals: 0
   m_ExposureSliderValue: 0
   m_SceneViewState:
+    m_AlwaysRefresh: 0
     showFog: 1
-    showMaterialUpdate: 0
     showSkybox: 1
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
+    m_FxEnabled: 1
   m_Grid:
     xGrid:
       m_Fade:
@@ -605,7 +1499,7 @@ MonoBehaviour:
     m_EasingEnabled: 1
     m_EasingDuration: 0.4
     m_AccelerationEnabled: 1
-    m_FieldOfView: 90
+    m_FieldOfViewHorizontalOrVertical: 60
     m_NearClip: 0.03
     m_FarClip: 10000
     m_DynamicClip: 1
@@ -617,7 +1511,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &16
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -637,22 +1531,25 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
+    x: 363
+    y: 73
+    width: 1101
+    height: 302
   m_ViewDataDictionary: {fileID: 0}
-  m_SerializedViewsNames: []
-  m_SerializedViewsValues: []
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 640, y: 480}
+  m_TargetSize: {x: 1101, y: 281}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
-  m_MaximizeOnPlay: 0
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -663,10 +1560,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -766
-    m_HBaseRangeMax: 766
-    m_VBaseRangeMin: -395
-    m_VBaseRangeMax: 395
+    m_HBaseRangeMin: -550.5
+    m_HBaseRangeMax: 550.5
+    m_VBaseRangeMin: -140.5
+    m_VBaseRangeMax: 140.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -675,7 +1572,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -683,30 +1580,30 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
-      width: 1532
-      height: 790
+      y: 21
+      width: 1101
+      height: 281
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 395}
+    m_Translation: {x: 550.5, y: 140.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -766
-      y: -395
-      width: 1532
-      height: 790
+      x: -550.5
+      y: -140.5
+      width: 1101
+      height: 281
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1532, y: 790}
+  m_LastWindowPixelSize: {x: 1101, y: 302}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &17
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -726,21 +1623,11 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 548
+    y: 396
+    width: 916
+    height: 595
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13963, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_DontSaveToLayout: 0
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []

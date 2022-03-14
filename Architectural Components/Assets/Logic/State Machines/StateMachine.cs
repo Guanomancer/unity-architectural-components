@@ -8,6 +8,8 @@ namespace Guanomancer.StateMachines
     {
         [SerializeField]
         private string _stateName;
+        public string StateName => _stateName;
+        public bool IsState<T>() where T : StateBase => _currentState is T;
 
         [Header("States")]
         [SerializeField]
@@ -57,7 +59,7 @@ namespace Guanomancer.StateMachines
         private void OnEnable()
         {
             if (_resetOnEnable)
-                Transition(-1);
+                Transition(0);
             else
                 _currentState?.Exit();
         }
@@ -65,7 +67,7 @@ namespace Guanomancer.StateMachines
         private void OnDisable()
         {
             if (_resetOnEnable)
-                Transition(0);
+                Transition(-1);
             else
                 _currentState?.Enter();
         }
