@@ -1,0 +1,16 @@
+{
+  "name": "com.guanomancer.architectural",
+  "version": "1.0.0",
+  "displayName": "Architectural Code Library",
+  "description": "These are my components, objects and other logic, for architecting Unity projects.",
+  "unity": "2021.1",
+  "documentationUrl": "https://github.com/Guanomancer/unity-architectural-components/",
+  "changelogUrl": "https://github.com/Guanomancer/unity-architectural-components/",
+  "licensesUrl": "https://github.com/Guanomancer/unity-architectural-components/blob/main/LICENSE",
+  "author": {
+    "name": "Troels Windekilde",
+    "email": "arch@guanomancer.com",
+    "url": "https://www.guanomancer.com"
+  },
+  "type": "library"
+}
