@@ -166,6 +166,7 @@ namespace Guanomancer.ProxyGrid
             cell.gameObject.transform.parent = _hiddenItemParent;
             _shownItems.Remove(cell);
             _hiddenItems.Add(cell);
+            cell.Hide();
         }
 
         private void ShowCell(IProxyGridItem cell)
@@ -173,6 +174,7 @@ namespace Guanomancer.ProxyGrid
             cell.gameObject.transform.parent = _rootObject;
             _hiddenItems.Remove(cell);
             _shownItems.Add(cell);
+            cell.Show();
         }
 
         private Vector3 GetCellCenter(Vector3Int cellID) => Vector3_.MultiplyByAxis(_spawner.TileSize, cellID) + _centerOffset;
