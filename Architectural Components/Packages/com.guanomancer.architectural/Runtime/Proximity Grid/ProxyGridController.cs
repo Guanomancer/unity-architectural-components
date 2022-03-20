@@ -71,7 +71,7 @@ namespace Guanomancer.ProxyGrid
         private void QueueForSpawning()
         {
             var offset = Vector3Int.CeilToInt(Vector3_.DivideByAxis(_observer.position, _spawner.TileSize));
-            Vector3IntEx.For(-_spawnRadiusInt, _spawnRadiusInt, offset, Vector3Int.one, (gridID) =>
+            Vector3Int_.For(-_spawnRadiusInt, _spawnRadiusInt, offset, Vector3Int.one, (gridID) =>
             {
                 if (!_items.ContainsKey(gridID))
                 {

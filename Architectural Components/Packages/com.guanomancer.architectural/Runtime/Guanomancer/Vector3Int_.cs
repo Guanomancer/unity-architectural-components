@@ -4,8 +4,11 @@ using UnityEngine;
 
 namespace Guanomancer
 {
-    public static class Vector3IntEx
+    public static class Vector3Int_
     {
+        public static int Product(this Vector3Int vector)
+            => vector.x * vector.y * vector.z;
+
         public static void For(Vector3Int start, Vector3Int end, Vector3Int step, System.Action<Vector3Int> action)
         {
             var count = Vector3Int.zero;
