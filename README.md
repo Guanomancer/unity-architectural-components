@@ -11,5 +11,5 @@ For now, you'll have to look at the unit test code, to see examples of how to us
 - Open the Package Manager window.
 - Click the + button.
 - Select 'Add package from git URL'.
-- Paste in this URL: https://github.com/Guanomancer/unity-architectural-components.git?path=/Architectural Components/Packages/com.guanomancer.architectural
+- Paste in this URL: [https://github.com/Guanomancer/unity-architectural-components.git?path=/Architectural Components/Packages/com.guanomancer.architectural](https://github.com/Guanomancer/unity-architectural-components.git?path=/Architectural Components/Packages/com.guanomancer.architectural)
 - Click Add and let Unity download and process the package.
