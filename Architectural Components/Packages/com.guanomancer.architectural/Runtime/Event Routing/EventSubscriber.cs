@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 namespace Guanomancer.EventRouting
 {
-    public class EventController : MonoBehaviour, IEventSubscriber
+    public class EventSubscriber : MonoBehaviour, IEventSubscriber
     {
         [SerializeField]
         public List<EventBinding> Bindings;

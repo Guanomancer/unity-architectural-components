@@ -17,6 +17,7 @@ namespace Guanomancer.EventRouting.TestsPlayMode
         [SetUp]
         public void Setup()
         {
+            EventRouter.LogEventsByDefault = true;
             _aQueue.Clear();
             _bQueue.Clear();
         }
@@ -25,7 +26,7 @@ namespace Guanomancer.EventRouting.TestsPlayMode
         public IEnumerator EventController_RegistersAndFiresEvents()
         {
             var gameObject = new GameObject();
-            var controller = gameObject.AddComponent<EventController>();
+            var controller = gameObject.AddComponent<EventSubscriber>();
             controller.Bindings = new List<EventBinding>();
             var binding = new EventBinding { EventName = nameof(MyEventC) };
             binding.OnEvent = new UnityEngine.Events.UnityEvent<IEventContext>();
@@ -46,7 +47,7 @@ namespace Guanomancer.EventRouting.TestsPlayMode
         public IEnumerator EventController_RegistersAndFiresCorrectEvents()
         {
             var gameObject = new GameObject();
-            var controller = gameObject.AddComponent<EventController>();
+            var controller = gameObject.AddComponent<EventSubscriber>();
             controller.Bindings = new List<EventBinding>();
             var bindingC = new EventBinding { EventName = nameof(MyEventC) };
             bindingC.OnEvent = new UnityEngine.Events.UnityEvent<IEventContext>();

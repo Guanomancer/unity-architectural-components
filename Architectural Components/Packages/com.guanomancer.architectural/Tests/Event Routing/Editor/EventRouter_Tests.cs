@@ -15,6 +15,7 @@ namespace Guanomancer.EventRouting.Tests
         [SetUp]
         public void Setup()
         {
+            EventRouter.LogEventsByDefault = true;
             EventRouter.UnsubscribeAll(this);
         }
 

@@ -11,7 +11,11 @@ namespace Guanomancer.EventRouting
 
         public readonly List<IEventSubscriber> Subscribers = new List<IEventSubscriber>();
 
+        public bool LogEvents;
+        public string EventLogFormat;
 
+        public static bool LogEventsByDefault;
+        public static string DefaultEventLogFormat = "<color=#5555cc>{0}</color>\n{1}";
 
         protected static readonly Dictionary<Type, EventRouter> Routers = new Dictionary<Type, EventRouter>();
         protected static readonly Dictionary<Type, List<IEventSubscriber>> AwaitingSubscribers = new Dictionary<Type, List<IEventSubscriber>>();
@@ -116,7 +120,11 @@ namespace Guanomancer.EventRouting
     {
         private static EventRouter<T> _instance;
         static EventRouter()
-            => _instance = new EventRouter<T>();
+        {
+            _instance = new EventRouter<T>();
+            _instance.LogEvents = LogEventsByDefault;
+            _instance.EventLogFormat = DefaultEventLogFormat;
+        }
 
         private List<IEventSubscriber> _addList = new List<IEventSubscriber>();
         private List<IEventSubscriber> _removeList = new List<IEventSubscriber>();
@@ -164,6 +172,8 @@ namespace Guanomancer.EventRouting
 
         public void DispatchEvent(T eventContext)
         {
+            if (LogEvents)
+                Debug.Log(string.Format(EventLogFormat, eventContext.GetType().Name, JsonUtility.ToJson(eventContext, true)));
             _dispatchDepth++;
             foreach (var subscriber in Subscribers)
                 subscriber.OnEvent(eventContext);
