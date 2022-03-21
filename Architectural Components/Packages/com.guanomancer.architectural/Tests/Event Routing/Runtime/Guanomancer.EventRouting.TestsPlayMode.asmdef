@@ -4,7 +4,8 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "Guanomancer.EventRouting"
+        "Guanomancer.EventRouting",
+        "Guanomancer"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

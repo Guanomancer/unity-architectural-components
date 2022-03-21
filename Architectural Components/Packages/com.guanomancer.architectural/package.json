@@ -1,6 +1,6 @@
 {
   "name": "com.guanomancer.architectural",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "displayName": "Architectural Code Library",
   "description": "These are my components, objects and other logic, for architecting Unity projects.",
   "unity": "2021.1",
