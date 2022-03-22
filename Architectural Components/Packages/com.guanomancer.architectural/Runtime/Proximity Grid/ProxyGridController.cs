@@ -8,7 +8,7 @@ namespace Guanomancer.ProxyGrid
     {
         [Header("Spawning")]
         [Tooltip("A component that implements IProxyGridSpawner, and can create the grid cell objects.")]
-        [SerializeField] private IProxyGridSpawner _spawner;
+        [SerializeField] private ProxyGridSpawner _spawner;
         [Tooltip("A transformn that holds the spawned grid cell objects. Leave blank to spawn in scene root.")]
         [SerializeField] private Transform _rootObject;
         [Tooltip("The radius inside which objects are spawned.")]

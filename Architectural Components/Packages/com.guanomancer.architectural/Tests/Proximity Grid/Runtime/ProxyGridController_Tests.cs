@@ -83,11 +83,11 @@ namespace Guanomancer.ProxyGrid.TestsPlayMode
     }
 
     [SerializeField]
-    public class TestSpawner : MonoBehaviour, IProxyGridSpawner
+    public class TestSpawner : ProxyGridSpawner
     {
-        public Vector3 TileSize => Vector3.one;
+        public override Vector3 TileSize => Vector3.one;
 
-        public IProxyGridItem Spawn(Vector3Int gridID)
+        public override IProxyGridItem Spawn(Vector3Int gridID)
         {
             var obj = new GameObject($"Cell {gridID}");
             var item = obj.AddComponent<TestItem>();
